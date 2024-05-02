@@ -1,0 +1,22 @@
+# Do not change version. This is the version of aws buildspec, not the version of your buldspec file.
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20 
+    commands:
+      - chmod 777 node_modules/.bin/nodemon
+      - npm install
+      - echo "Installing npm successfull"
+  build:
+    commands:
+      - npm run
+      - echo "Compilation successfull"
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: yes
