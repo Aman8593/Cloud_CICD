@@ -40,7 +40,7 @@ Clone the repository:
   npm start
 ```
 
-The site will be visible once you copy and paste the "public_ip/3000".
+The site will be visible once you copy and paste the "public_ip:3000".
 ## Deployment using CI / CD
 
 Deploy this project using AWS services (CodeCommit, CodeBuild, CodeDeploy & CodePipeline).
