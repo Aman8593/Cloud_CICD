@@ -3,6 +3,11 @@
 
 Magdalene is a AWS cloud based and React ecommerce platform. Built with React, modular and fully customizable.
 
+## Architecture Diagram
+
+
+![CloudAppFinal1 drawio](https://github.com/Aman8593/Cloud_CICD/assets/104978692/3ac28193-703d-498a-b8d7-805fe8ed9a39)
+
 
 ## Deployment on EC2
 
