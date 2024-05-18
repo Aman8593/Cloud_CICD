@@ -9,7 +9,7 @@ Magdalene is a AWS cloud based and React ecommerce platform. Built with React, m
 To deploy this project on Elastic Compute Cloud follow the steps.
 
 Note:  
-Create an Amazon S3 bucket to store the generated artifacts. For EC2 instance attach an IAM role to it with AmazonS3FullAccess & AWSCodeDeployFullAccess policies.
+Add an inbound traffic rule (Custom TCP) for allowing port 3000.
 
 
 To install nodeJS run
@@ -47,7 +47,7 @@ The site will be visible once you copy and paste the "public_ip:3000".
 Deploy this project using AWS services (CodeCommit, CodeBuild, CodeDeploy & CodePipeline).
 
 Note:  
-Create an Amazon S3 bucket to store the generated artifacts.
+Create an Amazon S3 bucket to store the generated artifacts. For EC2 instance attach an IAM role to it with AmazonS3FullAccess & AWSCodeDeployFullAccess policies.
 
 Steps:  
 
