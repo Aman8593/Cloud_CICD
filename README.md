@@ -55,55 +55,54 @@ Create an Amazon S3 bucket to store the generated artifacts. For EC2 instance at
 
 Steps:  
 
-  1] Create a repository in AWS CodeCommit and upload all the files of this project in that repository.
-      Steps:
-      1. Create a Code Commit Repository
+1] Create a repository in AWS CodeCommit and upload all the files of this project in that repository.
+
+Steps:
+1. Create a Code Commit Repository
       
-      2. Copy the HTTPS URL from Clone URL
+2. Copy the HTTPS URL from Clone URL
       
-      3. Configure AWS CLI and Download the Git Credentials from the IAM user   
-      ```bash
-      aws configure
-      ```
-      Fill the following details:
-      AWS Access Key ID [****]:
-      AWS Secret Access Key [****]:
-      Default region name [us-west-1]: us-west-2
-      Default output format [None]:(json,text)
+3. Configure AWS CLI and Download the Git Credentials from the IAM user   
+```bash
+aws configure
+```
+Fill the following details:
+AWS Access Key ID [****]:
+AWS Secret Access Key [****]:
+Default region name [us-west-1]: us-west-2
+Default output format [None]:(json,text)
       
-      4. Open Git bash
-      ```bash
-      git clone <HTTPS URL of Code Commit Repo>
-      ```
-      Give Username and Password of Git Credential
+4. Open Git bash
+```bash
+git clone <HTTPS URL of Code Commit Repo>
+```
+Give Username and Password of Git Credential
+5. Check the Download folder or the Directory where you have cloned the URL You will see your folder is created.
 
-      5. Check the Download folder or the Directory where you have cloned the URL You will see your folder is created.
+6. Copy Paste your Application Code into that folder
 
-      6. Copy Paste your Application Code into that folder
+7. Goto that folder directory
+```bash
+cd 'folder_name'
+```
 
-      7. Goto that folder directory
-      ```bash
-      cd 'folder_name'
-      ```
+8. Check the git status
+```bash
+git status
+```
 
-      8. Check the git status
-       ```bash
-      git status
-      ```
-
-      9. Add alll files to staging area and push it to origin
-      ```bash
-      git add .
-      git commit -m "First Commit"
-      git push origin master
-      ```
-
-      10. Now open your Code Commit Repository you will see your files have been added.
+9. Add alll files to staging area and push it to origin
+```bash
+git add .
+git commit -m "First Commit"
+git push origin master
+```
+10. Now open your Code Commit Repository you will see your files have been added.
       
       
   
 
-  2] For building the project using AWS CodeBuild follow the steps:
+2] For building the project using AWS CodeBuild follow the steps:
 
 ```bash
   Create Project -> Magdalene(Any project name will do) -> AWS CodeCommit (Source provider) ->
