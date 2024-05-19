@@ -65,12 +65,15 @@ Steps:
 ```bash
 aws configure
 ```
+
+```bash
 Fill the following details:
 AWS Access Key ID [****]:
 AWS Secret Access Key [****]:
 Default region name [us-west-1]: us-west-2
 Default output format [None]:(json,text)
-      
+```
+
 4. Open Git bash
 ```bash
 git clone <HTTPS URL of Code Commit Repo>
