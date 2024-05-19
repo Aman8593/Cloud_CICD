@@ -74,11 +74,11 @@ Default region name [us-west-1]: us-west-2
 Default output format [None]:(json,text)
 ```
 
-4. Open Git bash
+4. Open Git bash and Give Username and Password of Git Credential
 ```bash
 git clone <HTTPS URL of Code Commit Repo>
 ```
-Give Username and Password of Git Credential
+
 5. Check the Download folder or the Directory where you have cloned the URL You will see your folder is created.
 
 6. Copy Paste your Application Code into that folder
@@ -93,7 +93,7 @@ cd 'folder_name'
 git status
 ```
 
-9. Add alll files to staging area and push it to origin
+9. Add all files to stagging area and push it origin master
 ```bash
 git add .
 git commit -m "First Commit"
