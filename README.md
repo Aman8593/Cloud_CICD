@@ -57,7 +57,6 @@ Steps:
 
 1] Create a repository in AWS CodeCommit and upload all the files of this project in that repository.
 
-Steps:
 1. Create a Code Commit Repository
       
 2. Copy the HTTPS URL from Clone URL
