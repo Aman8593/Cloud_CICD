@@ -1,6 +1,6 @@
 # Magdalene: Cloud based Super Car E-commerce Website
 
-Magdalene is a AWS cloud based and React ecommerce platform. Built with React, modular and fully customizable.
+Magdalene is a AWS cloud based ecommerce platform.
 
 
 ## Architecture Diagram
