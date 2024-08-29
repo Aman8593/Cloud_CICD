@@ -1,7 +1,10 @@
 
+Site link for reference : https://aman8593.github.io/Cloud_CICD/
+
 # Magdalene: Cloud based Super Car E-commerce Website
 
 Magdalene is a AWS cloud based and React ecommerce platform. Built with React, modular and fully customizable.
+
 
 ## Architecture Diagram
 
